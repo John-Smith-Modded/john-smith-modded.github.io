@@ -1,0 +1,100 @@
+body {
+  font: 100%/1.4 Arial, Helvetica, sans-serif;
+  background-color: #42413C;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+  background-image: url("/assets/img/background.jpg");
+  background-attachment:fixed;
+}
+
+/* Our master container for the site */
+.container {
+  width: 904px;
+  background-color: #eee;
+  background-image:url("/assets/img/content_background.jpg");
+  /* the auto value on the sides, coupled with the width, centers the layout */
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding: 0px;
+  /* Set a repeating boarder based of main picture */
+  border-style: solid;
+  border-width: 18px 18px 18px 18px;
+  -webkit-border-image:url("/assets/img/content_sides.png") 18 repeat / 18px;        
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  -moz-border-image:url("/assets/img/content_sides.png") 18 repeat / 18px;
+  border-image:url("/assets/img/content_sides.png") 18 / 18px repeat;
+  background-clip: padding-box;
+}
+
+/* Header Picture Image */
+.header-picture {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+/* Nav Bar */
+.header-content {
+  margin-top: -6px;
+}
+
+.nav, .nav ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  list-style: none;
+}
+
+.nav {
+  height: 34px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #121212;
+  background-image: linear-gradient(#121212, #0b0b0b);
+}
+
+.nav li {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+.nav a {
+  float: left;
+  padding: 6px 16px 6px 16px;
+  color: #cfa177;
+  text-transform: uppercase;
+  font: Bold 16px 'Open Sans Condensed', 'Tw Cen MT Condensed', Impact;
+  letter-spacing:0px;
+  text-decoration: none;
+  text-shadow: 0px 0px 1px #000, 1px 1px 1px #000;
+}
+
+.nav li:hover > a {
+  color: #fafafa;
+  -webkit-transition: 200ms linear 0s;
+  -moz-transition: 200ms linear 0s;
+  -o-transition: 200ms linear 0s;
+  transition: 200ms linear 0s;
+  outline: 0 none;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #EFC534;
+}
+
+/* Main Content container */
+.main-content {
+  min-height: 500px;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+/* Footer */
+.footer-content {
+  padding: 12px;
+  background-color: #CCC49F;
+  border-top:solid 2px;
+  font-size: 12px;
+}
