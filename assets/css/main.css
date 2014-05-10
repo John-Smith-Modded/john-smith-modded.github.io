@@ -91,6 +91,39 @@ body {
   padding-top: 5px;
 }
 
+.main-content p {
+  font-family: 'Segoe UI','Open Sans', Arial, Helvetica, sans-serif;
+  color: #CBC2B1;
+  text-shadow: -1px 1px 0px #000;
+}
+
+.main-content h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', 'Tw Cen MT Condensed', Impact, Arial, Helvetica, sans-serif;
+  letter-spacing:0px;
+  text-transform:uppercase;
+  color: #CCC648;
+  text-shadow: -3px 3px 0px #070707
+}
+
+.main-content p a:link {
+  color: #ffe0c0;
+  text-decoration: underline;
+}
+.main-content p a:visited {
+  color: #ffe0c0;
+  text-decoration: underline;
+}
+.main-content p a:hover, a:active, a:focus {
+  color: #fafafa;
+  -webkit-transition: 200ms linear 0s;
+  -moz-transition: 200ms linear 0s;
+  -o-transition: 200ms linear 0s;
+  transition: 200ms linear 0s;
+  outline: 0 none;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #EFC534;
+  text-decoration: underline;
+}
+
 /* Footer */
 .footer-content {
   padding: 12px;
