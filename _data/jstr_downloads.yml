@@ -1,0 +1,35 @@
+universal:
+  -
+    name: "Universal JSTR"
+    version_mc: "1.6.x"
+    version_pack: 0.1.0
+    link: "http://downloadlink.com"
+  -
+    name: "Universal JSTR"
+    version_mc: "1.5.x"
+    version_pack: 0.1.0
+    link: "http://downloadlink.com"
+  -
+    name: "Universal JSTR"
+    version_mc: "1.4.x"
+    version_pack: 0.1.0
+    link: "http://downloadlink.com"
+modpacks:
+  -
+    name: "JSTR Monster"
+    pack: "Feed The Beast Packs"
+    version_mc: "1.6.x"
+    version_pack: 0.1.0
+    link: "http://downloadlink.com"
+  -
+    name: "FTB Lite"
+    pack: "Feed The Beast Packs"
+    version_mc: "1.6.x"
+    version_pack: 0.1.0
+    link: "http://downloadlink.com"
+  -
+    name: "Agrarian Skies"
+    pack: "Feed The Beast Packs"
+    version_mc: "1.6.x"
+    version_pack: 0.1.0
+    link: "http://downloadlink.com"
