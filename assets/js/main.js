@@ -8,6 +8,9 @@ window.onload = function(){
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   // Register
   ga('create', 'UA-50893232-1', 'js-legacy.net');
+  // Send default pageview
+  ga('send', 'pageview');
+
   // Special Instant Click for page change
   InstantClick.on('change', function() {
     ga('send', 'pageview', location.pathname + location.search);
