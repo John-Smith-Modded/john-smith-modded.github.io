@@ -1,35 +1,28 @@
 universal:
   -
     name: "Universal JSTR"
+    version_mc: "1.7.x"
+    version_pack: 0.1.0
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.7.x/JSTR_Universal.zip"
+  -
+    name: "Universal JSTR"
     version_mc: "1.6.x"
     version_pack: 0.1.0
-    link: "http://downloadlink.com"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/JSTR_Universal.zip"
   -
     name: "Universal JSTR"
     version_mc: "1.5.x"
     version_pack: 0.1.0
-    link: "http://downloadlink.com"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.5.x/JSTR_Universal.zip"
   -
     name: "Universal JSTR"
     version_mc: "1.4.x"
     version_pack: 0.1.0
-    link: "http://downloadlink.com"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.4.x/JSTR_Universal.zip"
 modpacks:
   -
-    name: "JSTR Monster"
-    pack: "Feed The Beast Packs"
+    name: "JSTR Lite"
+    pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: 0.1.0
-    link: "http://downloadlink.com"
-  -
-    name: "FTB Lite"
-    pack: "Feed The Beast Packs"
-    version_mc: "1.6.x"
-    version_pack: 0.1.0
-    link: "http://downloadlink.com"
-  -
-    name: "Agrarian Skies"
-    pack: "Feed The Beast Packs"
-    version_mc: "1.6.x"
-    version_pack: 0.1.0
-    link: "http://downloadlink.com"
+    version_pack: "v1.0.6"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_Lite.zip"
