@@ -4,7 +4,9 @@ layout: default
 
 <h1>
   {{ page.title }}
-  <small>[{{ page.date | date: "%B %-d, %Y" }}]</small>
+  <p style="display:inline;padding-left:10px;font-size:75%;text-transform:none;">
+    on {{ page.date | date: "%b %-d, %Y" }}
+  </p>
 </h1>
 <hr>
 

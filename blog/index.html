@@ -7,9 +7,27 @@ title: Blog
 <hr>
 
 {% for post in site.categories['blog'] %}
-  <a href="{{ post.url }}">
-    {{ post.title }} &raquo; 
-    {{ post.date | date: "%b %-d %Y" }}
-  </a>
-  {{ post.excerpt }}
+  
+  <!-- Post Header -->
+  <h2 style="text-transform:none;">
+    <a style="color:#e7db1b;" href="{{ post.url }}">
+      {{ post.title }}
+    </a>
+    <p style="display:inline;padding-left:10px;font-size:75%;">
+      on {{ post.date | date: "%b %-d, %Y" }}
+    </p>
+  </h2>
+
+  <!-- Post Excerpt -->
+  <div style="clear:both;">
+    <p>
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+      <a href="{{ post.url }}">
+        [ Read More ]
+      </a>
+    </p>
+  </div>
+
+  <hr style="clear:both;"/>
+  
 {% endfor %} 

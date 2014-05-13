@@ -5,3 +5,5 @@ safe: true
 timezone: America/New_York
 encoding: utf-8
 permalink: /:categories/:month-:day-:year/:title/
+gems:
+  - jekyll-sitemap

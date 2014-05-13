@@ -68,7 +68,6 @@ body {
   padding: 6px 16px 6px 16px;
   color: #cfa177;
   text-transform: uppercase;
-  font: Bold 16px 'Open Sans Condensed', 'Tw Cen MT Condensed', Impact;
   letter-spacing:0px;
   text-decoration: none;
   text-shadow: 0px 0px 1px #000, 1px 1px 1px #000;
@@ -103,12 +102,6 @@ body {
   color: #e7db1b;
   text-shadow: -3px 3px 0px #070707;
   margin-bottom: 15px;
-}
-
-.main-content h1 small {
-  text-transform:none;
-  font-size: 75%;
-  margin-left: 10px;
 }
 
 .main-content hr {
