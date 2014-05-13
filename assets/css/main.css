@@ -100,8 +100,19 @@ body {
   font-family: 'Open Sans Condensed', 'Tw Cen MT Condensed', Impact, Arial, Helvetica, sans-serif;
   letter-spacing:0px;
   text-transform:uppercase;
-  color: #CCC648;
-  text-shadow: -3px 3px 0px #070707
+  color: #e7db1b;
+  text-shadow: -3px 3px 0px #070707;
+  margin-bottom: 15px;
+}
+
+.main-content h1 small {
+  text-transform:none;
+  font-size: 75%;
+  margin-left: 10px;
+}
+
+.main-content hr {
+  border-color: #2d443c;
 }
 
 .main-content a:link {
