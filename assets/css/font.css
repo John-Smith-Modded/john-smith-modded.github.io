@@ -1,27 +1,43 @@
 @font-face {
   font-family: 'Berylium';
-  src: url('/assets/font/berylium_rg-webfont.ttf') format('truetype');
+  src: url('/assets/font/berylium_rg-webfont.eot');
+  src: url('/assets/font/berylium_rg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/font/berylium_rg-webfont.woff') format('woff'),
+       url('/assets/font/berylium_rg-webfont.ttf') format('truetype'),
+       url('/assets/font/berylium_rg-webfont.svg#beryliumregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Berylium';
-  src: url('/assets/font/berylium_rg_it-webfont.ttf') format('truetype');
+  src: url('/assets/font/berylium_rg_it-webfont.eot');
+  src: url('/assets/font/berylium_rg_it-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/font/berylium_rg_it-webfont.woff') format('woff'),
+       url('/assets/font/berylium_rg_it-webfont.ttf') format('truetype'),
+       url('/assets/font/berylium_rg_it-webfont.svg#beryliumitalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Berylium';
-  src: url('/assets/font/berylium_bd-webfont.ttf') format('truetype');
+  src: url('/assets/font/berylium_bd-webfont.eot');
+  src: url('/assets/font/berylium_bd-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/font/berylium_bd-webfont.woff') format('woff'),
+       url('/assets/font/berylium_bd-webfont.ttf') format('truetype'),
+       url('/assets/font/berylium_bd-webfont.svg#beryliumbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Berylium';
-  src: url('/assets/font/berylium_bd_it-webfont.ttf') format('truetype');
+  src: url('/assets/font/berylium_bd_it-webfont.eot');
+  src: url('/assets/font/berylium_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/font/berylium_bd_it-webfont.woff') format('woff'),
+       url('/assets/font/berylium_bd_it-webfont.ttf') format('truetype'),
+       url('/assets/font/berylium_bd_it-webfont.svg#beryliumbold_italic') format('svg');
   font-weight: bold;
   font-style: italic;
 }
