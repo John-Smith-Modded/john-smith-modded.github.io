@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Berylium';
+  src: url('/assets/font/berylium_rg-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berylium';
+  src: url('/assets/font/berylium_rg_it-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Berylium';
+  src: url('/assets/font/berylium_bd-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berylium';
+  src: url('/assets/font/berylium_bd_it-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}

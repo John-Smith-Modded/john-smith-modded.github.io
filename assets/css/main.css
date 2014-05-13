@@ -58,17 +58,20 @@ body {
 }
 
 .nav li {
-  position: relative;
-  display: inline-block;
   height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .nav a {
+  font-family: 'Berylium', 'Open Sans Condensed', Impact, Arial, Helvetica, sans-serif;
   float: left;
-  padding: 6px 16px 6px 16px;
+  padding: 10px 16px 6px 16px;
   color: #cfa177;
   text-transform: uppercase;
-  letter-spacing:0px;
+  letter-spacing: 0px;
   text-decoration: none;
   text-shadow: 0px 0px 1px #000, 1px 1px 1px #000;
 }
@@ -96,7 +99,7 @@ body {
 }
 
 .main-content h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans Condensed', 'Tw Cen MT Condensed', Impact, Arial, Helvetica, sans-serif;
+  font-family: 'Berylium', 'Open Sans Condensed', Impact, Arial, Helvetica, sans-serif;
   letter-spacing:0px;
   text-transform:uppercase;
   color: #e7db1b;
