@@ -15,24 +15,25 @@ window.onload = function(){
   InstantClick.on('change', function() {
     ga('send', 'pageview', location.pathname + location.search);
   });
-  // Outbound Link Tracking with Google Analytics
-  $(function() {
-    $("a").on('click',function(e){
-      var url = $(this).attr("href");
-      // If not current domain send event
-      if (url != undefined && e.currentTarget.host != window.location.host) {
-        // Send event
-        ga('send', 'event', 'Outbound Links', e.currentTarget.host.replace(':80',''), url)
-        // Set var if new tab
-        if (e.metaKey || e.ctrlKey || e.which === 2) {
-          var newtab = true;
-        }
-        // Send window to new location
-        if (!newtab) {
-          e.preventDefault();
-          setTimeout('document.location = "' + url + '"', 100);
-        }
-      }
-    });
-  });
 };
+
+// Outbound Link Tracking with Google Analytics
+$(function() {
+  $("a").on('click',function(e){
+    var url = $(this).attr("href");
+    // If not current domain send event
+    if (url != undefined && e.currentTarget.host != window.location.host) {
+      // Send event
+      ga('send', 'event', 'Outbound Links', e.currentTarget.host.replace(':80',''), url)
+      // Set var if new tab
+      if (e.metaKey || e.ctrlKey || e.which === 2) {
+        var newtab = true;
+      }
+      // Send window to new location
+      if (!newtab) {
+        e.preventDefault();
+        setTimeout('document.location = "' + url + '"', 100);
+      }
+    }
+  });
+});
