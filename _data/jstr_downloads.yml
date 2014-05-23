@@ -26,7 +26,7 @@ universal:
     link: "http://new.creeperrepo.net/johnsmith/modded/1.2.x/JSTR_Universal.zip"
 modpacks:
   -
-    name: "JSTR Unstable"
+    name: "Unstable"
     pack: "Feed The Beast"
     version_mc: "1.7.x"
     version_pack: "v1.0.3"
