@@ -159,3 +159,7 @@ body {
   border-top:solid 2px;
   font-size: 12px;
 }
+
+#instantclick-bar {
+  background-color: #E7DB1B;
+}
