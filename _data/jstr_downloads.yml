@@ -2,28 +2,28 @@ universal:
   -
     name: "Universal JSTR"
     version_mc: "1.7.x"
-    version_pack: 0.1.3
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.7.x/JSTR_Universal.zip"
+    version_pack: 0.1.4
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.7.x/JSTR_Universal_1.7.x.zip"
   -
     name: "Universal JSTR"
     version_mc: "1.6.x"
-    version_pack: 0.1.3
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/JSTR_Universal.zip"
+    version_pack: 0.1.4
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/JSTR_Universal_1.6.x.zip"
   -
     name: "Universal JSTR"
     version_mc: "1.5.x"
     version_pack: 0.1.0
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.5.x/JSTR_Universal.zip"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.5.x/JSTR_Universal_1.5.x.zip"
   -
     name: "Universal JSTR"
     version_mc: "1.4.x"
     version_pack: 0.1.0
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.4.x/JSTR_Universal.zip"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.4.x/JSTR_Universal_1.4.x.zip"
   -
     name: "Universal JSTR"
     version_mc: "1.2.x"
     version_pack: 0.1.0
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.2.x/JSTR_Universal.zip"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.2.x/JSTR_Universal_1.2.x.zip"
 modpacks:
   -
     name: "Unstable"
@@ -85,6 +85,12 @@ modpacks:
     version_mc: "1.6.x"
     version_pack: "v1.1.6"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_TechWorld.zip"
+  -
+    name: "Test Pack Please Ignore"
+    pack: "Feed The Beast"
+    version_mc: "1.6.x"
+    version_pack: "v1.0.3pre"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_TPPI.zip"
   -
     name: "Attack of the B-Team"
     pack: "Technic Platform"
