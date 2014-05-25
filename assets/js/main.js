@@ -15,37 +15,37 @@ window.onload = function(){
   InstantClick.on('change', function() {
     ga('send', 'pageview', location.pathname + location.search);
   });
-};
 
-// Outbound Link Tracking with Google Analytics
-$(function() {
-  $("a").on('click',function(e){
-    var url = $(this).attr("href");
-    // If not current domain send event
-    if (url != undefined && e.currentTarget.host != window.location.host) {
-      // Current target host
-      var url_host=e.currentTarget.host.replace(':80','');
-      // Get the ending of the url
-      var url_file = url;
-      url_file = url_file.substring(0, (url.indexOf("#") == -1) ? url_file.length : url_file.indexOf("#"));
-      url_file = url_file.substring(0, (url.indexOf("?") == -1) ? url_file.length : url_file.indexOf("?"));
-      url_file = url_file.substring(url_file.lastIndexOf("/") + 1, url_file.length);
-      // Send Event
-      if(url_file.match(/\.zip$/)) {
-        ga('send', 'event', 'outbound_file', url_host, url_file)
+  // Outbound Link Tracking with Google Analytics
+  $(function() {
+    $("a").on('click',function(e){
+      var url = $(this).attr("href");
+      // If not current domain send event
+      if (url != undefined && e.currentTarget.host != window.location.host) {
+        // Current target host
+        var url_host=e.currentTarget.host.replace(':80','');
+        // Get the ending of the url
+        var url_file = url;
+        url_file = url_file.substring(0, (url.indexOf("#") == -1) ? url_file.length : url_file.indexOf("#"));
+        url_file = url_file.substring(0, (url.indexOf("?") == -1) ? url_file.length : url_file.indexOf("?"));
+        url_file = url_file.substring(url_file.lastIndexOf("/") + 1, url_file.length);
+        // Send Event
+        if(url_file.match(/\.zip$/)) {
+          ga('send', 'event', 'outbound_file', url_host, url_file)
+        }
+        else {
+          ga('send', 'event', 'outbound_link', url_host, url)
+        }
+        // Set var if new tab
+        if (e.metaKey || e.ctrlKey || e.which === 2) {
+          var newtab = true;
+        }
+        // Send window to new location
+        if (!newtab) {
+          e.preventDefault();
+          setTimeout('document.location = "' + url + '"', 100);
+        }
       }
-      else {
-        ga('send', 'event', 'outbound_link', url_host, url)
-      }
-      // Set var if new tab
-      if (e.metaKey || e.ctrlKey || e.which === 2) {
-        var newtab = true;
-      }
-      // Send window to new location
-      if (!newtab) {
-        e.preventDefault();
-        setTimeout('document.location = "' + url + '"', 100);
-      }
-    }
+    });
   });
-});
+};
