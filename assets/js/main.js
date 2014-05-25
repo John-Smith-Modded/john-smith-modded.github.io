@@ -1,5 +1,5 @@
 window.onload = function(){
-  InstantClick.init();
+  //InstantClick.init();
 
   // Google analytics
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -12,9 +12,9 @@ window.onload = function(){
   ga('send', 'pageview');
 
   // Special Instant Click for page change
-  InstantClick.on('change', function() {
-    ga('send', 'pageview', location.pathname + location.search);
-  });
+  //InstantClick.on('change', function() {
+  //  ga('send', 'pageview', location.pathname + location.search);
+  //});
 
   // Outbound Link Tracking with Google Analytics
   $(function() {
