@@ -2,12 +2,12 @@ universal:
   -
     name: "Universal JSTR"
     version_mc: "1.7.x"
-    version_pack: 0.1.5
+    version_pack: 0.1.6
     link: "http://new.creeperrepo.net/johnsmith/modded/1.7.x/JSTR_Universal_1.7.x.zip"
   -
     name: "Universal JSTR"
     version_mc: "1.6.x"
-    version_pack: 0.1.5
+    version_pack: 0.1.6
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/JSTR_Universal_1.6.x.zip"
   -
     name: "Universal JSTR"
@@ -35,25 +35,25 @@ modpacks:
     name: "Agrarian Skies: Hardcore Quest"
     pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: "v2.1.8"
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_AgrarianSkies.zip"
+    version_pack: "v3.1.1"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_Agrarian_Skies.zip"
   -
     name: "Blood N Bones"
     pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: "v1.0.7"
+    version_pack: "v1.1.2"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_BloodNBones.zip"
   -
     name: "Direwolf20"
     pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: "v1.0.23"
+    version_pack: "v1.0.25"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_DireWolf20.zip"
   -
     name: "Horizons"
     pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: "v1.0.23"
+    version_pack: "v2.1.1"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_Horizons.zip"
   -
     name: "FTBLite 2"
@@ -77,41 +77,41 @@ modpacks:
     name: "Monster"
     pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: "v1.1.1"
+    version_pack: "v1.1.2"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_Monster.zip"
   -
     name: "Tech World 2"
     pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: "v1.1.6"
+    version_pack: "v1.1.7"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_TechWorld.zip"
   -
     name: "Test Pack Please Ignore"
     pack: "Feed The Beast"
     version_mc: "1.6.x"
-    version_pack: "v1.0.3pre"
+    version_pack: "v1.0.4pre"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/ftb/JSTR_TPPI.zip"
   -
     name: "Attack of the B-Team"
     pack: "Technic Platform"
     version_mc: "1.6.x"
-    version_pack: "v1.0.10"
+    version_pack: "v1.0.12a"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/technic/JSTR_ATBT.zip"
-  -
-    name: "Pugpack"
-    pack: "Technic Platform"
-    version_mc: "1.6.x"
-    version_pack: "v4.0.1"
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/technic/JSTR_PugPack.zip"
   -
     name: "Iron Pack"
     pack: "ATLauncher"
     version_mc: "1.6.x"
-    version_pack: "v1.0.0"
+    version_pack: "v1.1.0"
     link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/atlauncher/JSTR_IronPack.zip"
   -
-    name: "Sky Factory"
+    name: "Mad Pack"
     pack: "ATLauncher"
     version_mc: "1.6.x"
-    version_pack: "v1.2"
-    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/atlauncher/JSTR_SkyFactory.zip"
+    version_pack: "v1.5.1"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/atlauncher/JSTR_MadPack.zip"
+  -
+    name: "Ultra Hard Survival"
+    pack: "ATLauncher"
+    version_mc: "1.6.x"
+    version_pack: "v3.0.2"
+    link: "http://new.creeperrepo.net/johnsmith/modded/1.6.x/modpacks/atlauncher/JSTR_UHS.zip"
