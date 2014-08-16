@@ -4,9 +4,42 @@ title: Vanilla
 description: John Smith Legacy vanilla and John Smith Technician's Remix is a variation of the original John Smith texture pack which is designed for use with modded Minecraft. Supports many minecraft versions. This page hosts the vanilla pack downloads and other details.
 ---
 
-<h2>Redirecting</h2>
+<h1>John Smith Legacy</h1>
 <hr>
 
-<p>If you are not redirected automatically, please follow this link: <a href='http://www.johnsmithlegacy.co.uk/'>http://www.johnsmithlegacy.co.uk/</a></p>
+<p>John Smith Legacy vanilla and John Smith Technician's Remix is a variation of the original John Smith texture pack which is designed for use with modded Minecraft. Supports many minecraft versions. This page hosts the vanilla pack downloads and other details. Check out the minecraft forums for more details <a href="minecraftforum.net/topic/1544827-32x-john-smith-legacy-147151617-jstr-mod-support-ftb-tekkit-etccommunity-project/">here</a>. We are always looking for more people to help create the textures that people enjoy. Below are two diffrent version, one is the orginal 32x version and the other is is a work in progress 64x version. Enjoy the textures!</p>
 
-<meta http-equiv="refresh" content="2; url=http://www.johnsmithlegacy.co.uk/" />
+<br /><br />
+
+<div style="text-align:center">
+  <img style="height:50px;" src="/assets/img/downloads_header_4.png" alt="32x Vanilla Downloads" />
+</div>
+<p>Currently the legacy pack is being hosted on www.johnsmithlegacy.co.uk. Please visit it here for the 32x downloads: <a href='http://www.johnsmithlegacy.co.uk/'>http://www.johnsmithlegacy.co.uk/</a></p>
+<!--<meta http-equiv="refresh" content="2; url=http://www.johnsmithlegacy.co.uk/" />-->
+
+
+<div style="text-align:center">
+  <img style="height:50px;" src="/assets/img/downloads_header_5.png" alt="64x Vanilla Downloads" />
+</div>
+<div class="mod_table">
+  <table>
+    <tr>
+      <th>Pack Name</th>
+      <th>Pack Version</th>
+      <th>Minecraft Version</th>
+      <th>Download Link</th>
+    </tr>
+    {% for file in site.data.js_downloads.64x %}
+      <tr>
+        <td>{{ file.type }}</td>
+        <td>{{ file.version_pack }}</td>
+        <td>{{ file.version_mc }}</td>
+        <td><a href="{{ file.link }}">Download</a></td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<br />
+
+<p>The light pack only contains the 64x textures and no ctm. The regular contains just contians 64x textures and the ctm. Please note that these are recommented to be applied overtop the orginal 32x pack. For all the 64x downloads please visit <a href='http://minecraft.curseforge.com/texture-packs/223431-john-smith-64x/files'>here</a> for the latest download links.</p>

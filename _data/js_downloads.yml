@@ -1,0 +1,11 @@
+64x:
+  -
+    type: "JS 64x Regular"
+    version_mc: "1.7.x"
+    version_pack: 0.1.0
+    link: "http://minecraft.curseforge.com/texture-packs/223431-john-smith-64x/files/2211745/download"
+  -
+    type: "JS 64x Light"
+    version_mc: "1.7.x"
+    version_pack: 0.1.0
+    link: "http://minecraft.curseforge.com/texture-packs/223431-john-smith-64x/files/2211746/download"
