@@ -2,13 +2,13 @@ universal:
   -
     name: "Universal JSTR"
     version_mc: "1.7.x"
-    version_pack: 0.1.6
-    link: "http://minecraft.curseforge.com/texture-packs/223328-john-smith-modded/files/2211516/download"
+    version_pack: 0.1.7
+    link: "http://minecraft.curseforge.com/texture-packs/223328-john-smith-modded/files/2211874/download"
   -
     name: "Universal JSTR"
     version_mc: "1.6.x"
-    version_pack: 0.1.6
-    link: "http://minecraft.curseforge.com/texture-packs/223328-john-smith-modded/files/2211514/download"
+    version_pack: 0.1.7
+    link: "http://minecraft.curseforge.com/texture-packs/223328-john-smith-modded/files/2211872/download"
   -
     name: "Universal JSTR"
     version_mc: "1.5.x"
