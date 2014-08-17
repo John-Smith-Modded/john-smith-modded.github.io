@@ -4,7 +4,9 @@ title: Site Changes and Updates
 ---
 
 So many updates within the same week! We have a lot of great things coming online now. One of the biggest things we have is the offical introduction of the 64x version of the pack. [@Greenhawk837](https://github.com/Greenhawk837) and
-[@TitaN655](https://github.com/TitaN655) have been hard at work creating a 64x version of the pack. We are very glad that they have joined the website and provided downloads for our [vanilla page](/jstr-vanilla/). The vanilla page has been changed to reflect these changes. On the top of the page, the normal 32x version of the pack can be downloaded through a link to [@JimStoneCraft](http://www.minecraftforum.net/members/JimStoneCraft) website. Below is the downloads of the 64x versions of the pack. The 64x version of the pack is still considered a *work in progress*, so we recommend that you apply it overtop the 32x version of the pack. By applying it over, you guarantee that you are getting the best textures for your world. These packs are compiled from the github repo, which can be found [here](https://github.com/John-Smith-64x/). Feel free to contribute textures or just check out the recent work there.
+[@TitaN655](https://github.com/TitaN655) have been hard at work creating a 64x version of the pack. We are very glad that they have joined the website and provided downloads for our [vanilla page](/jstr-vanilla/). The vanilla page has been changed to reflect these changes.
+
+On the top of the page, the normal 32x version of the pack can be downloaded through a link to [@JimStoneCraft](http://www.minecraftforum.net/members/JimStoneCraft) website. Below is the downloads of the 64x versions of the pack. The 64x version of the pack is still considered a *work in progress*, so we recommend that you apply it overtop the 32x version of the pack. By applying it over, you guarantee that you are getting the best textures for your world. These packs are compiled from the github repo, which can be found [here](https://github.com/John-Smith-64x/). Feel free to contribute textures or just check out the recent work there.
 
 ### Modpack Update details:
 
