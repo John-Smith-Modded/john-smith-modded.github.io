@@ -3,7 +3,7 @@ patch:
     name: "JSTR Legacy Overlay"
     version_mc: "1.7.x"
     version_pack: "v0.1.0"
-    link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-modded/2225316"
+    link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-modded/2225313"
 universal:
   -
     name: "Universal JSTR"
