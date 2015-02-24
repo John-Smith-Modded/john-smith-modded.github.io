@@ -1,11 +1,11 @@
 64x:
   -
-    type: "JS 64x Regular"
+    type: "JS Legacy 64x"
     version_mc: "1.7.x"
     version_pack: "v0.1.1"
     link: "http://www.curse.com/texture-packs/minecraft/223431-john-smith-64x/2228507"
   -
-    type: "JS 64x Light"
+    type: "JS Light 64x"
     version_mc: "1.7.x"
     version_pack: "v0.1.1"
     link: "http://www.curse.com/texture-packs/minecraft/223431-john-smith-64x/2228508"
