@@ -21,6 +21,7 @@ description: John Smith Technician's Remix is a variation of the original John S
       <th>Pack Version</th>
       <th>Minecraft Version</th>
       <th>Download Link</th>
+      <th>Date Updated</th>
     </tr>
     {% for file in site.data.jstr_downloads.universal %}
       <tr>
@@ -28,6 +29,7 @@ description: John Smith Technician's Remix is a variation of the original John S
         <td>{{ file.version_pack }}</td>
         <td>{{ file.version_mc }}</td>
         <td><a href="{{ file.link }}">Download</a></td>
+        <td>{{file.date_updated}}</td>
       </tr>
     {% endfor %}
   </table>
@@ -49,6 +51,7 @@ description: John Smith Technician's Remix is a variation of the original John S
       <th>Pack Version</th>
       <th>Minecraft Version</th>
       <th>Download Link</th>
+      <th>Date Updated</th>
     </tr>
     {% for file in site.data.jstr_downloads.patch %}
       <tr>
@@ -56,6 +59,7 @@ description: John Smith Technician's Remix is a variation of the original John S
         <td>{{ file.version_pack }}</td>
         <td>{{ file.version_mc }}</td>
         <td><a href="{{ file.link }}">Download</a></td>
+        <td>{{file.date_updated}}</td>
       </tr>
     {% endfor %}
   </table>
