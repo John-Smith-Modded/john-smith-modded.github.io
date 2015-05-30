@@ -2,39 +2,46 @@ patch:
   -
     name: "JSTR Legacy Overlay"
     version_mc: "1.7.x"
-    version_pack: "v0.1.3"
-    link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2228503"
+    version_pack: "v0.1.4"
+    link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2240598"
+    date_updated: "May 30, 2015"
   -
     name: "JSTR 64x Overlay"
     version_mc: "1.7.x"
     version_pack: "v0.1.0"
     link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2228503"
+    date_updated: "February 23, 2015"
 universal:
   -
     name: "Universal JSTR"
     version_mc: "1.7.x"
-    version_pack: "v0.1.15"
-    link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2233573"
+    version_pack: "v0.1.16"
+    link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2240601"
+    date_updated: "May 30, 2015"
   -
     name: "Universal JSTR"
     version_mc: "1.6.x"
     version_pack: "v0.1.10"
     link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2225233"
+    date_updated: "January 22, 2015"
   -
     name: "Universal JSTR"
     version_mc: "1.5.x"
     version_pack: "v0.1.0"
     link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2211513"
+    date_updated: "August 13, 2014"
   -
     name: "Universal JSTR"
     version_mc: "1.4.x"
     version_pack: "v0.1.0"
     link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2211511"
+    date_updated: "August 13, 2014"
   -
     name: "Universal JSTR"
     version_mc: "1.2.x"
     version_pack: "v0.1.0"
     link: "http://www.curse.com/texture-packs/minecraft/223328-john-smith-legacy-modded/2211510"
+    date_updated: "August 13, 2014"
 modpacks:
   -
     name: "Unstable"
