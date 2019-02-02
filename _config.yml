@@ -1,5 +1,4 @@
 name: Johnsmith Legacy
-markdown: redcarpet
 highlighter: rouge
 timezone: America/New_York
 encoding: utf-8
